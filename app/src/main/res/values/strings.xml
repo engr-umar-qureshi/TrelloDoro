@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TrelloDoro</string>
+
+    <string name="txt_network">Please wait, Performing network operation</string>
+    <string name="txt_ok">Ok</string>
+
+    <!-- activity_configure -->
+    <string name="act_config_txt_title">Configure Account</string>
+    <string name="act_config_txt_info">Please connect your Trello account by logging in and allowing access using the button below to configure app with Trello.</string>
+    <string name="act_config_btn_login">Connect to Trello</string>
+    <string name="act_config_txt_title_board">Select Board:</string>
+    <string name="act_config_txt_title_todo">Select To Do List:</string>
+    <string name="act_config_txt_title_doing">Select In Progress List:</string>
+    <string name="act_config_txt_title_done">Select Done List:</string>
+    <string name="act_config_btn_configure">Configure</string>
+    <string name="act_config_error_connect">You must connect Trello account to proceed</string>
+    <string name="act_config_txt_welcome">, Your account connected successfully, Please select your configurations below.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TrellodoroApi</string>
+
+    <string name="error_msg_connection">Internet connection is required to perform this operation</string>
+
+    <string name="error_msg_call">Failed to complete network call, Please try again</string>
+
+    <string name="error_msg_parsing">App just encountered internal parsing error</string>
+
+    <string name="error_msg_response">App just encountered internal response error</string>
+
+    <string name="error_msg_realm">App just encountered internal realm error</string>
+
+    <string name="error_msg_invalid">Failed to translate error code</string>
+
+</resources>
