@@ -10,7 +10,7 @@ public class PrefrenceUser{
 
     private Context mContext;
     private SharedPreferences sharedPreferences;
-    private SharedPreferences.Editor editor;
+
 
     private static final String USER_PREFRENCES = "USER_PREFRENCES";
 
@@ -24,10 +24,10 @@ public class PrefrenceUser{
     public PrefrenceUser(Context context){
         this.mContext = context;
         sharedPreferences = mContext.getSharedPreferences(USER_PREFRENCES, Context.MODE_PRIVATE);
-        editor = sharedPreferences.edit();
     }
 
     public void setTrelloConfigured(boolean isTrelloConfigured){
+        SharedPreferences.Editor editor= sharedPreferences.edit();
         editor.putBoolean(KEY_TRELLO_CONFIG, isTrelloConfigured);
         editor.commit();
     }
@@ -38,6 +38,7 @@ public class PrefrenceUser{
 
 
     public void setUserToken(String user_token){
+        SharedPreferences.Editor editor= sharedPreferences.edit();
         editor.putString(KEY_USER_TOKEN, user_token);
         editor.commit();
     }
@@ -47,6 +48,7 @@ public class PrefrenceUser{
     }
 
     public void setUserUsername(String user_username){
+        SharedPreferences.Editor editor= sharedPreferences.edit();
         editor.putString(KEY_USER_USERNAME, user_username);
         editor.commit();
     }
@@ -56,6 +58,7 @@ public class PrefrenceUser{
     }
 
     public void setUserId(String user_id){
+        SharedPreferences.Editor editor= sharedPreferences.edit();
         editor.putString(KEY_USER_ID, user_id);
         editor.commit();
     }
@@ -66,6 +69,7 @@ public class PrefrenceUser{
 
 
     public void setUserDisplayName(String user_display_name){
+        SharedPreferences.Editor editor= sharedPreferences.edit();
         editor.putString(KEY_USER_DISPLAY_NAME, user_display_name);
         editor.commit();
     }

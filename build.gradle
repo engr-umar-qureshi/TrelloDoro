@@ -13,7 +13,9 @@ buildscript {
     }
 }
 
-
+lintOptions {
+    warning 'InvalidPackage'
+}
 
 allprojects {
     repositories {
