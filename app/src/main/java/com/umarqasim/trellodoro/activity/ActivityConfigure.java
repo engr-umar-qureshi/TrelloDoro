@@ -61,7 +61,6 @@ public class ActivityConfigure extends ActivityBaseTrellodoro implements ViewCon
     Button btnConfigure;
 
     PresenterConfigure presenter;
-    String tempVar;
     String tempVar2 = "Default";
 
 
@@ -69,9 +68,7 @@ public class ActivityConfigure extends ActivityBaseTrellodoro implements ViewCon
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_configure);
-        tempVar = "Not a default";
-        tempVar2 = tempVar;
-
+        tempVar2 = "Not a default";
     }
 
     @Override
