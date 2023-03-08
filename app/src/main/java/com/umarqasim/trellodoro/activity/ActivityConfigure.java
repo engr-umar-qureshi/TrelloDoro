@@ -61,13 +61,14 @@ public class ActivityConfigure extends ActivityBaseTrellodoro implements ViewCon
     Button btnConfigure;
 
     PresenterConfigure presenter;
+    String tempVar;
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_configure);
-
+        tempVar = "Test";
     }
 
     @Override
