@@ -64,6 +64,8 @@ public class ActivityConfigure extends ActivityBaseTrellodoro implements ViewCon
     String tempVar;
 
 
+    Boolean testVarBool = false;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +76,7 @@ public class ActivityConfigure extends ActivityBaseTrellodoro implements ViewCon
     @Override
     public PresenterBaseTrellodoro initializePresenter() {
         presenter = new PresenterConfigure(this);
+        //Some random thing
         return presenter;
     }
 
