@@ -62,6 +62,7 @@ public class ActivityConfigure extends ActivityBaseTrellodoro implements ViewCon
 
     PresenterConfigure presenter;
     String tempVar;
+    String tempVar2 = null;
 
 
     @Override
@@ -69,6 +70,7 @@ public class ActivityConfigure extends ActivityBaseTrellodoro implements ViewCon
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_configure);
         tempVar = "Test";
+        tempVar = "Default";
     }
 
     @Override
